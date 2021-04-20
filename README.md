@@ -1,0 +1,2 @@
+# rollingdiff
+Rolling hash implementation
