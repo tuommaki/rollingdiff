@@ -34,17 +34,3 @@ func main() {
 		fmt.Printf("%d: %#v\n", i, c)
 	}
 }
-
-// ByteCountBinary can be used to print "human readable" sizes.
-func ByteCountBinary(b int) string {
-	const unit = 1024
-	if b < unit {
-		return fmt.Sprintf("%d B", b)
-	}
-	div, exp := unit, 0
-	for n := b / unit; n >= unit; n /= unit {
-		div *= unit
-		exp++
-	}
-	return fmt.Sprintf("%.1f %ciB", float64(b)/float64(div), "KMGTPE"[exp])
-}
