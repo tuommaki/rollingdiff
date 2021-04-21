@@ -3,7 +3,7 @@ package rollingdiff
 import (
 	"crypto/sha256"
 
-	"github.com/tuommaki/filediff/fastcdc"
+	"github.com/tuommaki/rollingdiff/fastcdc"
 )
 
 type Chunk struct {

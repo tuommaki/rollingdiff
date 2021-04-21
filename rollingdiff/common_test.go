@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tuommaki/filediff/fastcdc"
+	"github.com/tuommaki/rollingdiff/fastcdc"
 )
 
 var seed = flag.Int64("seed", time.Now().Unix(), "seed for rng")

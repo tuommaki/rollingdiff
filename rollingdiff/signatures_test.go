@@ -3,7 +3,7 @@ package rollingdiff
 import (
 	"testing"
 
-	"github.com/tuommaki/filediff/fastcdc"
+	"github.com/tuommaki/rollingdiff/fastcdc"
 )
 
 func Test_Signatures_Splits_Data_Into_Chunks(t *testing.T) {

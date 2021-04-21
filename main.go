@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/tuommaki/filediff/rollingdiff"
+	"github.com/tuommaki/rollingdiff/rollingdiff"
 )
 
 func main() {
