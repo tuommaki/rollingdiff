@@ -1,4 +1,4 @@
-module github.com/tuommaki/filediff
+module github.com/tuommaki/rollingdiff
 
 go 1.16
 
